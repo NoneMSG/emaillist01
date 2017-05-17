@@ -14,7 +14,6 @@
 	
 	new EmaillistDao().insert(vo);
 	
-	
 	//리다이렉트 응답
 	response.sendRedirect("/emaillist01");
 %>
